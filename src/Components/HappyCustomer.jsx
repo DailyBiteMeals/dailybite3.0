@@ -36,7 +36,7 @@ const HappyCustomer = () =>
                                 <img src={ logo4 } alt="" />
                             </div>
                             <div className="slide">
-                                <img src={ logo5 } Zalt="" />
+                                <img src={ logo5 } alt="" />
                             </div>
                         </div>
                     </div>
