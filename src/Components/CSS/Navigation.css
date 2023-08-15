@@ -11,6 +11,7 @@ nav {
     transition: background-color 0.3s, box-shadow 0.3s;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    overflow: hidden;
 }
 
 .logo {

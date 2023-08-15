@@ -81,14 +81,15 @@
         height: auto;
     }
 
-    .section-fruit {
+    /* .section-fruit {
         margin: 5px;
-    }
+    } */
 
     .section-1-fruit,
     .section-2-fruit,
     .section-3-fruit {
         flex-basis: 100%;
+        padding: 0%;
     }
 
     .section-3 {

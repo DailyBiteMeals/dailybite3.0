@@ -19,7 +19,7 @@ const FruitBowl = () =>
         <p>Get Your Dose of Natural Sweetness, Fibre, Vitamins, and immune-boosting Antioxidants Overflowing with Apple, Orange, Banana, Grape, Pineapple, Papaya, Watermelon, Strawberry, Kiwi, Mango, Dry Fruits and Honey.</p>
         <div className="rectangles-container-fruit">
           <div className="rectangle-fruit">
-            <h3>Stabdard Fruit Bowl</h3>
+            <h3>Standard fruit bowl</h3>
             <p>Only @ Rs. 49</p>
           </div>
           <div className="rectangle-fruit">
