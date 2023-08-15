@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  /* margin-top: 50px; */
+}
+
+.testimonials-slider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex: 1470 20px; */
+}
+
+.testimonials-slider p {
+  width: 80px;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 50px;
+  color: #222222;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  margin: 0%;
+  align-items: center;
+}
+
+.testimonials-slider p span {
+  color: #F96F00;
+}
+
+.testimonial-slide {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  /* padding: 20px; */
+  border: 1px solid #ddd;
+  /* border-radius: 8px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-photo {
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+}
+
+.testimonial-photo img {
+  max-width: 100%;
+  /* border-radius: 50%; */
+  background-size: cover;
+  height: 200px;
+}
+
+.testimonial-details {
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+  font-family: 'poppins';
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-name {
+  font-size: 35px;
+  font-weight: bold;
+  color: #F96F00;
+  /* text-align: left; */
+}
+
+.profile-description {
+  font-size: 20px;
+  margin-top: 20px;
+  height: 200px;
+  width: 600px;
+}
+
+
+.feedback-title {
+  margin-top: 10%;
+  font-size: 25px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .testimonial-slide {
+    width: 90%;
+    /* Adjust width for smaller screens */
+  }
+
+  .profile-name {
+    font-size: 24px;
+  }
+
+  .profile-description {
+    font-size: 14px;
+  }
+}

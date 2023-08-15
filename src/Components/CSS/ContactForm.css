@@ -1,0 +1,79 @@
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/src/Asset/DailyBite\ contact\ image.jpg');
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    font-family: 'poppins';
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+}
+
+.contact-form:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    /* Bottom border style */
+    /* background-color: transparent; */
+    color: #222222;
+    font-family: 'poppins';
+    /* Text color */
+}
+
+h3 {
+    color: #F96F00;
+    text-transform: uppercase;
+}
+
+.contact-form button {
+    background-color: #F96F00;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #783701;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%;
+        max-width: 400px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form-container {
+        padding: 20px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+}

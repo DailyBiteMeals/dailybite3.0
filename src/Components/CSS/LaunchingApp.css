@@ -1,0 +1,69 @@
+.containerApp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sectionApp {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.imageApp {
+    max-width: 100%;
+    height: auto;
+}
+
+.titleApp {
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-family: 'poppins';
+    font-weight: bolder;
+    text-align: left;
+    color: #FF5A11;
+    text-transform: uppercase;
+}
+
+.descriptionApp {
+    font-size: 16px;
+    width: 350px;
+    text-align: left;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .containerApp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionApp {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imageApp {
+        max-width: 80%;
+    }
+
+    .titleApp {
+        font-size: 50px;
+        margin: 0%;
+    }
+
+    .descriptionApp {
+        font-size: 14px;
+    }
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Keep the existing styles or add tablet-specific styles */
+}

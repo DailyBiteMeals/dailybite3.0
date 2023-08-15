@@ -1,0 +1,113 @@
+.container-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-section,
+.image-section-feature {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #ccc;
+}
+
+.feature-icon {
+    width: 100px;
+    height: auto;
+}
+
+.feature-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-title {
+    margin: 0;
+    text-align: left;
+    font-family: 'poppins';
+    color: #FF5A11;
+}
+
+.feature-subtitle {
+    text-align: left;
+    width: 300px;
+    font-family: 'poppins';
+}
+
+.image-section-feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .container-feature {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+    }
+
+    .feature-section,
+    .image-section-feature {
+        width: 100%;
+        /* Occupy full width */
+        padding: 10px;
+        align-items: center;
+    }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        width: 80px;
+        height: 100px;
+    }
+
+    .feature-icon {
+        width: 80px;
+        /* Adjust icon size for mobile */
+    }
+
+    .feature-title {
+        font-size: 16px;
+        text-align: left;
+        /* Adjust font size for mobile */
+    }
+
+    .feature-subtitle {
+        font-size: 12px;
+        /* Adjust font size for mobile */
+        width: 80%;
+        /* Adjust width for better readability */
+        text-align: left;
+        /* Center text on mobile */
+    }
+
+    .image-section-feature img {
+        border-radius: 0;
+        /* Remove border radius for mobile */
+    }
+}

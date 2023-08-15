@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.container-fruit {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.section-fruit {
+    display: flex;
+    /* flex-grow: 1; */
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.section-1-fruit {
+    flex-basis: 50%;
+    /* background-color: #f2f2f2; */
+    object-fit: cover;
+    margin: 0%;
+    padding: 30px;
+}
+
+.section-2-fruit {
+    flex-basis: 30%;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-2-fruit img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.section-2-fruit p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.rectangles-container-fruit {
+    display: flex;
+}
+
+.rectangle-fruit {
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.section-3-fruit {
+    flex-basis: 20%;
+    /* background-color: #f2f2f2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: floatAnimation 3s infinite alternate ease-in-out;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+        /* Adjust the values for desired hovering distance */
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container-fruit {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section-fruit {
+        margin: 5px;
+    }
+
+    .section-1-fruit,
+    .section-2-fruit,
+    .section-3-fruit {
+        flex-basis: 100%;
+    }
+
+    .section-3 {
+        animation: none;
+    }
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Keep the existing styles or add tablet-specific styles */
+}

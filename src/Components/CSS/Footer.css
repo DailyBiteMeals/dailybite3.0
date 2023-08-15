@@ -1,0 +1,38 @@
+.footer {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 20%;
+}
+
+.footer-contact-details {
+    margin-bottom: 10px;
+}
+
+.footer-contact-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-icons {
+    display: flex;
+    color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-image {
+    width: 30%;
+}
+
+/* You can add more styling here based on your design preferences */

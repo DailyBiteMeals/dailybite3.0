@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.landing-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+}
+
+.section {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+}
+
+.section-two {
+    /* background-color: #e0e0e0; */
+    flex: 70%;
+}
+
+.image {
+    width: 70%;
+}
+
+.text-container {
+    margin-left: 80px;
+}
+
+.title {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    line-height: 40px;
+}
+
+.title span {
+    font-size: 45px;
+    color: #F96F00;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #3D2A1B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin: 0%;
+
+}
+
+.vertical-line-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 10px;
+    height: 160px;
+    /* Adjusted height to fit content */
+    background-color: #DEDBD9;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-bite {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+
+/* CSS for poster */
+.poster-image img {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .landing-page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-one {
+        height: 60s0px;
+        margin-left: 20px;
+    }
+
+    .section-two {
+        height: 350px;
+    }
+
+    .section,
+    .section-two {
+        flex: 100%;
+    }
+
+    .text-container {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .poster-image img {
+        width: 100%;
+    }
+}
