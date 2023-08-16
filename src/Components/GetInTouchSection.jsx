@@ -32,7 +32,10 @@ const GetInTouchSection = () =>
                         </div>
                         <div className="contact-item">
                             <img src={ AddressIcon } alt="EDailybite-Address" />
-                            29 A, 27th Main Road, 7th Cross Road, 1st Sector, HSR Layout, Bengaluru, Karnataka, India - 560102
+                            17, 24th Main Rd, 3rd Cross Rd, Agara
+                            Village, 1st Sector, HSR Layout,
+                            Bengaluru, Karnataka 560102
+
                         </div>
                         <div className="contact-item">
                             <img src={ whatsappIcon } alt="WhatsApp Icon" />
