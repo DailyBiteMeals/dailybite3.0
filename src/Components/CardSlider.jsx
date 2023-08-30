@@ -64,7 +64,7 @@ const CardSlider = () =>
     {
       image: image10,
       title: "Fruit Bowl",
-      subtitle: "Subtitle 2",
+      subtitle: "Variety Ranging from Banana, Apple, Orange, Grapes, Watermelon, Papaya, Mango, Pineapple and Many seasonal fruits",
     },
     // Add more card objects here
   ];
@@ -89,7 +89,7 @@ const CardSlider = () =>
       >
         { cards.map( ( card, index ) => (
           <Card
-            key={ index }
+            key={ index + cards.length }
             image={ card.image }
             title={ card.title }
             subtitle={ card.subtitle }
