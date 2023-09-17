@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import "./CSS/CardSlider.css";
-import image1 from "../Asset/DailyBite Veg Privilege Meal.png";
-import image2 from "../Asset/DailyBite Non-Veg Privilege Meal.png";
-import image3 from "../Asset/DailyBite Egg Privilege Meal.png";
-import image4 from "../Asset/Standard Veg Meal.png";
-import image5 from "../Asset/Standard Non-veg Meal.png";
-import image6 from "../Asset/Standard Egg Meal.png";
-import image7 from "../Asset/DailyBite Veg 3 in 1 Meal.png";
-import image8 from "../Asset/DailyBite Non-Veg 3 in 1 Meal.png";
-import image9 from "../Asset/DailyBite Egg 3 in 1 Meal.png";
+import image1 from "../Asset/Veg Privilege Meal.png";
+import image2 from "../Asset/Non-Veg Privilege Meal.png";
+import image3 from "../Asset/Egg Privilige Meal.png";
+import image4 from "../Asset/Veg Stanadrd Meal.png";
+import image5 from "../Asset/Non-Veg Standard Meal.png";
+import image6 from "../Asset/Egg Standard Meal.png";
+import image7 from "../Asset/Veg 3in1 Meal.png";
+import image8 from "../Asset/Non-Veg 3in1 Meal.png";
+import image9 from "../Asset/Egg 3in1 Meal.png";
 import image10 from "../Asset/fruitBowl-FrontFace.png";
 
 const CardSlider = () =>

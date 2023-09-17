@@ -1,38 +1,88 @@
+/* styles.css or Footer.css */
+
 .footer {
-    background-color: #222222;
-    color: white;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0 0;
+    text-align: center;
+}
+
+.container-footer {
+    max-width: 100%;
+    padding: 0 20px;
+    /* Add some padding for better spacing */
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.footer-section {
-    width: 20%;
-}
-
-.footer-contact-details {
-    margin-bottom: 10px;
-}
-
-.footer-contact-icon {
-    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.footer-social-icons {
+.footer-columns {
     display: flex;
-    color: white;
+    flex-wrap: wrap;
+    /* Allow columns to wrap on smaller screens */
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.footer-link {
+.footer-column {
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.footer-column p {
+    text-align: left;
+}
+
+.footer-column address {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
     text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-    text-decoration: none;
 }
 
-.footer-image {
-    width: 30%;
+.footer-column img {
+    max-width: 100%;
 }
 
-/* You can add more styling here based on your design preferences */
+.copyright {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    /* Adjust padding for better spacing */
+    background-color: #FF5A11;
+    text-align: center;
+    /* Center align the copyright text */
+}
+
+/* Media Query for smaller screens (adjust breakpoints as needed) */
+@media (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column;
+        /* Stack columns on smaller screens */
+    }
+
+    .footer-column {
+        flex: 1;
+        padding: 0;
+        text-align: center;
+    }
+
+    .copyright {
+        padding: 10px 20px;
+        /* Adjust padding for better spacing on smaller screens */
+    }
+}

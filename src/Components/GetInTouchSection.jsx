@@ -22,7 +22,7 @@ const GetInTouchSection = () =>
             <div className="bottom-section">
                 <div className="left-section">
                     <h2>Contact us!</h2>
-                    <p>reach out through our contact form and <br></br>our team will get back to you promptly.</p>
+                    <p>Reach out through our contact form and <br></br>our team will get back to you shortly.</p>
                 </div>
                 <div className="right-section">
                     <div className="contact-info">
@@ -48,14 +48,22 @@ const GetInTouchSection = () =>
                         {/* Add other contact items */ }
                     </div>
                     <div className="social-media-icons">
-                        <img src={ socialMediaIcon1 } alt="Social Media Icon 1" />
-                        <img src={ socialMediaIcon2 } alt="Social Media Icon 1" />
-                        <img src={ socialMediaIcon3 } alt="Social Media Icon 1" />
-                        <img src={ socialMediaIcon4 } alt="Social Media Icon 1" />
+                        <a href='https://instagram.com/dailybite.meal?igshid=YTQwZjQ0NmI0OA==' ><img src={ socialMediaIcon1 } alt="DailyBite Instagram" /></a>
+
+
+                        <a href='https://www.facebook.com/profile.php?id=100093328969581'>
+                            <img src={ socialMediaIcon2 } alt="Dailybite FaceBook" /></a>
+
+                        <a href='https://twitter.com/dailybitemeal?t=WuNdpD8HcSJozDFdOYLWiQ&s=09'>
+                            <img src={ socialMediaIcon3 } alt="DailyBite Twitter" /></a>
+
+                        <a href='https://youtube.com/@dailybitemeal?si=5rBi-dGq8L5-hBPl'>
+                            <img src={ socialMediaIcon4 } alt="DailyBite Youtube" />
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

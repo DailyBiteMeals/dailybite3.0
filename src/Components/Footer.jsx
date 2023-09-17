@@ -1,51 +1,61 @@
 import React from 'react';
-import './CSS/Footer.css'; // Import your CSS file
+import "./CSS/Footer.css";
+import logo from '../Asset/Logo/DailyBite_logo_2.png';
+import contactImage from '../Asset/DailyBite 8.png';
 
-// import CallinGirl from '../Asset/DailyBite 9.png'
-
-const Footer = () =>
+function Footer ()
 {
     return (
         <footer className="footer">
-            <div className="footer-section">
-                <div className="footer-contact-details">
-                    {/* Icons and contact details */ }
-                    {/* Example: */ }
-                    <div className="footer-contact-icon">
-                        <i className="fas fa-phone"></i>
-                        {/* <span>Contact No: 123-456-7890</span> */ }
+            <div className="container-footer">
+                <div className="footer-columns">
+                    {/* Column 1 */ }
+                    <div className="footer-column">
+                        <img src={ logo } alt="Company Logo" />
+                        <address>17, 24th Main Rd, 3rd Cross Rd, Agara Village, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102</address>
+                        <p>+91 86602 03805</p>
+                        <p>info@dailybite.in</p>
+                        {/* Add social media icons here */ }
                     </div>
-                    {/* Add other contact details similarly */ }
+                    {/* Column 2 */ }
+                    {/* <div className="footer-column">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Link 2</a></li>
+                            <li><a href="/">Link 3</a></li>
+                            <li><a href="/">Link 4</a></li>
+                            <li><a href="/">Link 5</a></li>
+                        </ul>
+                    </div> */}
+                    {/* Column 3 */ }
+                    <div className="footer-column">
+                        <ul>
+                            <li><a href="https://wa.me/918660203805">Whats App</a></li>
+
+                            <li><a href="https://www.linkedin.com/company/daily-bite/">LinkdIn</a></li>
+
+                            <li><a href="https://instagram.com/dailybite.meal?igshid=YTQwZjQ0NmI0OA==">Instagram</a></li>
+
+                            <li><a href="https://youtube.com/@dailybitemeal?si=5rBi-dGq8L5-hBPl">Youtube</a></li>
+
+                            <li><a href="https://www.facebook.com/profile.php?id=100093328969581">Facebook</a></li>
+                            
+                            <li><a href="https://twitter.com/dailybitemeal?t=WuNdpD8HcSJozDFdOYLWiQ&s=09">Twitter</a></li>
+                        </ul>
+                    </div>
+                    {/* Column 4 */ }
+                    <div className="footer-column">
+                        <img src={ contactImage } alt="DailyBite - Meal Delivery"
+                            width={ 250 } />
+                    </div>
                 </div>
-                <div className="footer-social-icons">
-                    {/* Social media icons */ }
-                    {/* Example: */ }
-                    {/* <i className="fab fa-facebook"></i>
-                    <i className="fab fa-twitter"></i> */}
-                    {/* Add other social media icons similarly */ }
+                {/* Copyright section */ }
+                <div className="copyright">
+                    &copy; { new Date().getFullYear() } DailyBite. All rights reserved.
                 </div>
             </div>
-            <div className="footer-section">
-                {/* 2nd section links */ }
-                {/* Example: */ }
-                {/* <a className="footer-link">Link 1</a>
-                <a className="footer-link">Link 2</a> */}
-                {/* Add other links similarly */ }
-            </div>
-            <div className="footer-section">
-                {/* 3rd section links */ }
-                {/* Example: */ }
-                {/* <a className="footer-link">Link 3</a>
-                <a className="footer-link">Link 4</a> */}
-                {/* Add other links similarly */ }
-            </div>
-            <div className="footer-section">
-                {/* 4th section image */ }
-                {/* <img src={ CallinGirl } alt="Footer Image" className="footer-image" /> */ }
-            </div>
-           
         </footer>
     );
-};
+}
 
 export default Footer;
